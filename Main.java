@@ -27,11 +27,9 @@ public class Main {
         for (String current : split) {
             if (current.contains("ё")) {
                 var text = current.replace("ё", "е");
-
                 result += text;
             } else {
                 result += current;
-
             }
             result += " ";
             System.out.printf("Данные ФИО сотрудника - %s", result);
